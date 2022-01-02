@@ -6,11 +6,11 @@ import java.util.*;
       Scanner scn = new Scanner(System.in);
       int n = scn.nextInt();
 
-      int count = 0;
+      int d = 0;
       while(n != 0){
           n = n / 10;
-          count++;
+          d++;
       }
-      System.out.println(count);
+      System.out.println(d);
    }
   }
